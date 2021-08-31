@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <section class="calc">
+        <div class="calc-body">
+          <header class="calc-header">
+            <h2>calc</h2>
+            <div class="themes-container">
+              <div class="theme-heading-container"><h5>THEME</h5></div>
+              <div class="theme-control">
+                <div class="theme-labels">
+                  <h6>1</h6>
+                  <h6>2</h6>
+                  <h6>3</h6>
+                </div>
+                <div class="theme-slider-container">
+                  <div class="slider theme-pos-1"></div>
+                  <div class="slider theme-pos-2"></div>
+                  <div class="slider theme-pos-3"></div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="display-container">
+            <div class="input-display-container">
+              <h3 class="input-display"></h3>
+            </div>
+            <div class="output-display-container">
+              <h3 class="output-display"></h3>
+            </div>
+
+            <!-- <input
+              class="display"
+              type="number"
+              step="0.0000000001"
+              placeholder="0"
+            /> -->
+          </div>
+          <div class="btns-container">
+            <button class="btn size-one-btn 7-btn">7</button>
+            <button class="btn size-one-btn 8-btn">8</button>
+            <button class="btn size-one-btn 9-btn">9</button>
+            <button class="btn size-one-btn del-btn">DEL</button>
+            <button class="btn size-one-btn 4-btn">4</button>
+            <button class="btn size-one-btn 5-btn">5</button>
+            <button class="btn size-one-btn 6-btn">6</button>
+            <button class="btn size-one-btn +-btn">+</button>
+            <button class="btn size-one-btn 1-btn">1</button>
+            <button class="btn size-one-btn 2-btn">2</button>
+            <button class="btn size-one-btn 3-btn">3</button>
+            <button class="btn size-one-btn --btn">-</button>
+            <button class="btn size-one-btn .-btn">.</button>
+            <button class="btn size-one-btn 0-btn">0</button>
+            <button class="btn size-one-btn /-btn">/</button>
+            <button class="btn size-one-btn x-btn">x</button>
+            <button class="btn size-two-btn reset-btn">RESET</button>
+            <button class="btn size-two-btn equals-btn">=</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
